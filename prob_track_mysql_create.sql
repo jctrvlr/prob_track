@@ -7,7 +7,7 @@ CREATE TABLE `users` (
 	`l_name` varchar(35) NOT NULL,
 	`created_at` TIMESTAMP NOT NULL DEFAULT NOW(),
 	`updated_at` TIMESTAMP NOT NULL DEFAULT NOW() ON UPDATE NOW(),
-	PRIMARY KEY (`id`)
+	PRIMARY KEY (`user_id`)
 );
 
 CREATE TABLE `locations` (
